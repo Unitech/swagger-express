@@ -1,15 +1,38 @@
 {swagger-express}
 =========
 
-[Swagger](https://developers.helloreverb.com/swagger/) is a specification and complete framework 
+[Swagger](https://developers.helloreverb.com/swagger/) is a specification and complete framework
 implementation for describing, producing, consuming, and visualizing RESTful web services.
 View [demo](http://petstore.swagger.wordnik.com/).
 
 __{swagger-express}__ is a simple and clean solution to integrate swagger with express.
 
+## forked Example
+
+```
+  app.use(swagger.init(app, {
+    // Base path of the API
+    basePath: 'http://localhost:3000',
+    // Folder prefix
+    prefix : '/doc',
+    // Files containing swagger specs
+    apis: ['./api.js'],
+    apiVersion : '0.1',
+    // Infos to be displayed
+    info : {
+      title : 'Assemblage',
+      description : 'API interface documentation',
+      contact : 'strzelewicz.alexandre@gmail.com'
+    }
+  }));
+```
+
+
 ## Installation
 
     $ npm install -g swagger-express
+
+
 
 ## Quick Start
 
@@ -21,6 +44,8 @@ Configure {swagger-express} as express middleware.
 `swaggerVersion`  -> Swagger version.
 
 `basePath`        -> This is the base path of the server declaring the apis.
+
+`prefix`        -> Url prefix
 
 `swaggerUI`       -> Where is your swagger-ui?
 
@@ -41,7 +66,7 @@ app.configure(function(){
   app.use(app.router);
   ...
 });
-``` 
+```
 ## Read from jsdoc
 
 Example 'api.js'
@@ -63,7 +88,7 @@ Example 'api.js'
  *      notes: Returns a user based on username
  *      responseClass: User
  *      nickname: login
- *      consumes: 
+ *      consumes:
  *        - text/html
  *      parameters:
  *        - name: username
@@ -93,7 +118,7 @@ exports.login = function (req, res) {
  *       username:
  *         type: String
  *       password:
- *         type: String    
+ *         type: String
  */
 ```
 
@@ -104,7 +129,7 @@ Example 'api.yml'
 ```yml
 resourcePath: /api
 description: All about API
-apis: 
+apis:
 
 - path: /login
   operations:
@@ -114,7 +139,7 @@ apis:
     notes: Returns a user based on username
     responseClass: User
     nickname: login
-    consumes: 
+    consumes:
       - text/html
     parameters:
 
@@ -137,7 +162,7 @@ models:
         username:
           type: String
         password:
-          type: String    
+          type: String
 ```
 
 
@@ -153,7 +178,7 @@ and run the example:
 
     $ cd example
     $ node app.js
-    
+
 # Credits
 
 - [Express](https://github.com/visionmedia/express)

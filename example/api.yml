@@ -1,6 +1,6 @@
 resourcePath: /api
 description: All about API
-apis: 
+apis:
 
 - path: /login
   operations:
@@ -10,7 +10,7 @@ apis:
     notes: Returns a user based on username
     responseClass: User
     nickname: login
-    consumes: 
+    consumes:
       - text/html
     parameters:
 
@@ -33,4 +33,4 @@ models:
         username:
           type: String
         password:
-          type: String    
+          type: String

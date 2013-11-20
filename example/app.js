@@ -20,13 +20,21 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(swagger.init(app, {
-    swaggerUI: './public/swagger/',
+    // Base path of the API
     basePath: 'http://localhost:3000',
-    apis: ['./api.js']
-    //apis: ['./api.yml']
+    // Folder prefix
+    prefix : '/doc',
+    // Files containing swagger specs
+    apis: ['./api.js'],
+    apiVersion : '0.1',
+    // Infos to be displayed
+    info : {
+      title : 'Assemblage',
+      description : 'API interface documentation',
+      contact : 'strzelewicz.alexandre@gmail.com'
+    }
   }));
   app.use(app.router);
-  app.use(express.static(path.join(__dirname, 'public')));
 });
 
 app.configure('development', function(){
@@ -37,7 +45,11 @@ app.get('/', function(req, res){
   res.render('index', { title: 'Express' });
 });
 
-app.post('/login', api.login);
+app.get('/login/:das', function(req, res, next) {
+  res.send({success:true});
+});
+app.post('/login/:test', api.login);
+app.post('/register', api.register);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
