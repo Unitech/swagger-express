@@ -1,0 +1,240 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/tknew/nvm/v0.11.2/bin/node',
+1 verbose cli   '/home/tknew/nvm/v0.11.2/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.21
+3 info using node@v0.11.2
+4 verbose publish [ '.' ]
+5 verbose read json /home/tknew/Unitech/swagger-express/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/tknew/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+14 verbose folder .
+15 info prepublish swagger-express@1.0.2
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /home/tknew/.npm/3a52ce78-.lock
+18 silly lockFile 2077fcee-90722-0-9479887187480927-tmp-tgz /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+19 verbose lock /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz /home/tknew/.npm/2077fcee-90722-0-9479887187480927-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 2077fcee-90722-0-9479887187480927-tmp-tgz /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+23 silly lockFile 2077fcee-90722-0-9479887187480927-tmp-tgz /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+24 verbose tar unpack /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+25 silly lockFile 96793191-90722-0-9479887187480927-package /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package
+26 verbose lock /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package /home/tknew/.npm/96793191-90722-0-9479887187480927-package.lock
+27 silly lockFile 2077fcee-90722-0-9479887187480927-tmp-tgz /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+28 verbose lock /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz /home/tknew/.npm/2077fcee-90722-0-9479887187480927-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+32 silly gunzTarPerm extractEntry .npmignore
+33 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+34 silly gunzTarPerm extractEntry README.md
+35 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+36 silly gunzTarPerm extractEntry LICENSE
+37 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+38 silly gunzTarPerm extractEntry index.js
+39 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry jshint.cfg
+41 silly gunzTarPerm modified mode [ 'jshint.cfg', 436, 420 ]
+42 silly gunzTarPerm extractEntry lib/swagger-express/index.js
+43 silly gunzTarPerm modified mode [ 'lib/swagger-express/index.js', 436, 420 ]
+44 silly gunzTarPerm extractEntry ui-2.0.2/swagger-ui.js
+45 silly gunzTarPerm modified mode [ 'ui-2.0.2/swagger-ui.js', 436, 420 ]
+46 silly gunzTarPerm extractEntry ui-2.0.2/swagger-ui.min.js
+47 silly gunzTarPerm modified mode [ 'ui-2.0.2/swagger-ui.min.js', 436, 420 ]
+48 silly gunzTarPerm extractEntry ui-2.0.2/css/highlight.default.css
+49 silly gunzTarPerm modified mode [ 'ui-2.0.2/css/highlight.default.css', 436, 420 ]
+50 silly gunzTarPerm extractEntry ui-2.0.2/css/screen.css
+51 silly gunzTarPerm modified mode [ 'ui-2.0.2/css/screen.css', 436, 420 ]
+52 silly gunzTarPerm extractEntry ui-2.0.2/images/logo_small.png
+53 silly gunzTarPerm modified mode [ 'ui-2.0.2/images/logo_small.png', 436, 420 ]
+54 silly gunzTarPerm extractEntry ui-2.0.2/images/pet_store_api.png
+55 silly gunzTarPerm modified mode [ 'ui-2.0.2/images/pet_store_api.png', 436, 420 ]
+56 silly gunzTarPerm extractEntry ui-2.0.2/images/throbber.gif
+57 silly gunzTarPerm modified mode [ 'ui-2.0.2/images/throbber.gif', 436, 420 ]
+58 silly gunzTarPerm extractEntry ui-2.0.2/images/wordnik_api.png
+59 silly gunzTarPerm modified mode [ 'ui-2.0.2/images/wordnik_api.png', 436, 420 ]
+60 silly gunzTarPerm extractEntry ui-2.0.2/index-template.html
+61 silly gunzTarPerm modified mode [ 'ui-2.0.2/index-template.html', 436, 420 ]
+62 silly gunzTarPerm extractEntry ui-2.0.2/index.html
+63 silly gunzTarPerm modified mode [ 'ui-2.0.2/index.html', 436, 420 ]
+64 silly gunzTarPerm extractEntry ui-2.0.2/lib/backbone-min.js
+65 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/backbone-min.js', 436, 420 ]
+66 silly gunzTarPerm extractEntry ui-2.0.2/lib/highlight.7.3.pack.js
+67 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/highlight.7.3.pack.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery-1.8.0.min.js
+69 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/jquery-1.8.0.min.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery.ba-bbq.min.js
+71 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/jquery.ba-bbq.min.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry ui-2.0.2/lib/handlebars-1.0.0.js
+73 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/handlebars-1.0.0.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery.wiggle.min.js
+75 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/jquery.wiggle.min.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry ui-2.0.2/lib/swagger.js
+77 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/swagger.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry ui-2.0.2/lib/shred.bundle.js
+79 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/shred.bundle.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry ui-2.0.2/lib/underscore-min.js
+81 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/underscore-min.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery.slideto.min.js
+83 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/jquery.slideto.min.js', 436, 420 ]
+84 silly gunzTarPerm extractEntry ui-2.0.2/lib/shred/content.js
+85 silly gunzTarPerm modified mode [ 'ui-2.0.2/lib/shred/content.js', 436, 420 ]
+86 verbose read json /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package/package.json
+87 silly lockFile 96793191-90722-0-9479887187480927-package /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package
+88 silly lockFile 96793191-90722-0-9479887187480927-package /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package
+89 silly lockFile 2077fcee-90722-0-9479887187480927-tmp-tgz /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+90 silly lockFile 2077fcee-90722-0-9479887187480927-tmp-tgz /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/tmp.tgz
+91 verbose from cache /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package/package.json
+92 verbose tar pack [ '/home/tknew/.npm/swagger-express/1.0.2/package.tgz',
+92 verbose tar pack   '/home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package' ]
+93 verbose tarball /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+94 verbose folder /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package
+95 silly lockFile 96793191-90722-0-9479887187480927-package /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package
+96 verbose lock /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package /home/tknew/.npm/96793191-90722-0-9479887187480927-package.lock
+97 silly lockFile aff5a51e-wagger-express-1-0-2-package-tgz /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+98 verbose lock /home/tknew/.npm/swagger-express/1.0.2/package.tgz /home/tknew/.npm/aff5a51e-wagger-express-1-0-2-package-tgz.lock
+99 silly lockFile 96793191-90722-0-9479887187480927-package /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package
+100 silly lockFile 96793191-90722-0-9479887187480927-package /home/tknew/tmp/npm-28905/1385231190722-0.9479887187480927/package
+101 silly lockFile aff5a51e-wagger-express-1-0-2-package-tgz /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+102 silly lockFile aff5a51e-wagger-express-1-0-2-package-tgz /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+103 silly lockFile 353371cf-pm-swagger-express-1-0-2-package /home/tknew/.npm/swagger-express/1.0.2/package
+104 verbose lock /home/tknew/.npm/swagger-express/1.0.2/package /home/tknew/.npm/353371cf-pm-swagger-express-1-0-2-package.lock
+105 silly lockFile 353371cf-pm-swagger-express-1-0-2-package /home/tknew/.npm/swagger-express/1.0.2/package
+106 silly lockFile 353371cf-pm-swagger-express-1-0-2-package /home/tknew/.npm/swagger-express/1.0.2/package
+107 verbose tar unpack /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+108 silly lockFile 353371cf-pm-swagger-express-1-0-2-package /home/tknew/.npm/swagger-express/1.0.2/package
+109 verbose lock /home/tknew/.npm/swagger-express/1.0.2/package /home/tknew/.npm/353371cf-pm-swagger-express-1-0-2-package.lock
+110 silly lockFile aff5a51e-wagger-express-1-0-2-package-tgz /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+111 verbose lock /home/tknew/.npm/swagger-express/1.0.2/package.tgz /home/tknew/.npm/aff5a51e-wagger-express-1-0-2-package-tgz.lock
+112 silly gunzTarPerm modes [ '755', '644' ]
+113 silly gunzTarPerm extractEntry package.json
+114 silly gunzTarPerm extractEntry .npmignore
+115 silly gunzTarPerm extractEntry README.md
+116 silly gunzTarPerm extractEntry LICENSE
+117 silly gunzTarPerm extractEntry index.js
+118 silly gunzTarPerm extractEntry jshint.cfg
+119 silly gunzTarPerm extractEntry lib/swagger-express/index.js
+120 silly gunzTarPerm extractEntry ui-2.0.2/swagger-ui.js
+121 silly gunzTarPerm extractEntry ui-2.0.2/swagger-ui.min.js
+122 silly gunzTarPerm extractEntry ui-2.0.2/css/highlight.default.css
+123 silly gunzTarPerm extractEntry ui-2.0.2/css/screen.css
+124 silly gunzTarPerm extractEntry ui-2.0.2/images/logo_small.png
+125 silly gunzTarPerm extractEntry ui-2.0.2/images/pet_store_api.png
+126 silly gunzTarPerm extractEntry ui-2.0.2/images/throbber.gif
+127 silly gunzTarPerm extractEntry ui-2.0.2/images/wordnik_api.png
+128 silly gunzTarPerm extractEntry ui-2.0.2/index-template.html
+129 silly gunzTarPerm extractEntry ui-2.0.2/index.html
+130 silly gunzTarPerm extractEntry ui-2.0.2/lib/backbone-min.js
+131 silly gunzTarPerm extractEntry ui-2.0.2/lib/highlight.7.3.pack.js
+132 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery-1.8.0.min.js
+133 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery.ba-bbq.min.js
+134 silly gunzTarPerm extractEntry ui-2.0.2/lib/handlebars-1.0.0.js
+135 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery.wiggle.min.js
+136 silly gunzTarPerm extractEntry ui-2.0.2/lib/swagger.js
+137 silly gunzTarPerm extractEntry ui-2.0.2/lib/shred.bundle.js
+138 silly gunzTarPerm extractEntry ui-2.0.2/lib/underscore-min.js
+139 silly gunzTarPerm extractEntry ui-2.0.2/lib/jquery.slideto.min.js
+140 silly gunzTarPerm extractEntry ui-2.0.2/lib/shred/content.js
+141 verbose read json /home/tknew/.npm/swagger-express/1.0.2/package/package.json
+142 silly lockFile 353371cf-pm-swagger-express-1-0-2-package /home/tknew/.npm/swagger-express/1.0.2/package
+143 silly lockFile 353371cf-pm-swagger-express-1-0-2-package /home/tknew/.npm/swagger-express/1.0.2/package
+144 silly lockFile aff5a51e-wagger-express-1-0-2-package-tgz /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+145 silly lockFile aff5a51e-wagger-express-1-0-2-package-tgz /home/tknew/.npm/swagger-express/1.0.2/package.tgz
+146 verbose from cache /home/tknew/.npm/swagger-express/1.0.2/package/package.json
+147 verbose chmod /home/tknew/.npm/swagger-express/1.0.2/package.tgz 644
+148 verbose chown /home/tknew/.npm/swagger-express/1.0.2/package.tgz [ 1000, 1000 ]
+149 silly lockFile 3a52ce78- .
+150 silly publish { name: 'swagger-express',
+150 silly publish   description: 'Document your express rest api by jsDoc or yaml.',
+150 silly publish   version: '1.0.2',
+150 silly publish   author: { name: 'fliptoo', email: 'fliptoo.studio@gmail.com' },
+150 silly publish   main: './index',
+150 silly publish   dependencies:
+150 silly publish    { express: '*',
+150 silly publish      underscore: '*',
+150 silly publish      doctrine: '*',
+150 silly publish      'js-yaml': '*',
+150 silly publish      async: '~0.2.7' },
+150 silly publish   devDependencies: { jade: '*', jshint: '*' },
+150 silly publish   scripts: { test: 'jshint --config jshint.cfg $(find . -name *.js | grep -v \'./node_modules\')' },
+150 silly publish   keywords:
+150 silly publish    [ 'swagger',
+150 silly publish      'swagger-ui',
+150 silly publish      'express',
+150 silly publish      'api',
+150 silly publish      'jsdoc',
+150 silly publish      'yml',
+150 silly publish      'yaml',
+150 silly publish      'restful' ],
+150 silly publish   repository: { type: 'git', url: 'git://github.com/fliptoo/swagger-express' },
+150 silly publish   readme: '{swagger-express}\n=========\n\n[Swagger](https://developers.helloreverb.com/swagger/) is a specification and complete framework\nimplementation for describing, producing, consuming, and visualizing RESTful web services.\nView [demo](http://petstore.swagger.wordnik.com/).\n\n__{swagger-express}__ is a simple and clean solution to integrate swagger with express.\n\n## forked Example\n\n```\n  app.use(swagger.init(app, {\n    // Base path of the API\n    basePath: \'http://localhost:3000\',\n    // Folder prefix\n    prefix : \'/doc\',\n    // Files containing swagger specs\n    apis: [\'./api.js\'],\n    apiVersion : \'0.1\',\n    // Infos to be displayed\n    info : {\n      title : \'Assemblage\',\n      description : \'API interface documentation\',\n      contact : \'strzelewicz.alexandre@gmail.com\'\n    }\n  }));\n```\n\n\n## Installation\n\n    $ npm install -g swagger-express\n\n\n\n## Quick Start\n\nConfigure {swagger-express} as express middleware.\n\n\n`apiVersion`      -> Your api version.\n\n`swaggerVersion`  -> Swagger version.\n\n`basePath`        -> This is the base path of the server declaring the apis.\n\n`prefix`        -> Url prefix\n\n`swaggerUI`       -> Where is your swagger-ui?\n\n`apis`            -> Define your api array.\n\n```\nvar swagger = require(\'swagger-express\');\n\napp.configure(function(){\n  ...\n  app.use(swagger.init(app, {\n    apiVersion: \'1.0\',\n    swaggerVersion: \'1.0\',\n    basePath: \'http://localhost:3000\',\n    swaggerUI: \'./public/swagger/\',\n    apis: [\'./api.js\', \'./api.yml\']\n  }));\n  app.use(app.router);\n  ...\n});\n```\n## Read from jsdoc\n\nExample \'api.js\'\n\n```js\n\n/**\n * @swagger\n * resourcePath: /api\n * description: All about API\n */\n\n/**\n * @swagger\n * path: /login\n * operations:\n *   -  httpMethod: POST\n *      summary: Login with username and password\n *      notes: Returns a user based on username\n *      responseClass: User\n *      nickname: login\n *      consumes:\n *        - text/html\n *      parameters:\n *        - name: username\n *          description: Your username\n *          paramType: query\n *          required: true\n *          dataType: string\n *        - name: password\n *          description: Your password\n *          paramType: query\n *          required: true\n *          dataType: string\n */\nexports.login = function (req, res) {\n  var user = {};\n  user.username = req.param(\'username\');\n  user.password = req.param(\'password\');\n  res.json(user);\n}\n\n/**\n * @swagger\n * models:\n *   User:\n *     id: User\n *     properties:\n *       username:\n *         type: String\n *       password:\n *         type: String\n */\n```\n\n## Read from yaml file\n\nExample \'api.yml\'\n\n```yml\nresourcePath: /api\ndescription: All about API\napis:\n\n- path: /login\n  operations:\n\n  - httpMethod: POST\n    summary: Login with username and password\n    notes: Returns a user based on username\n    responseClass: User\n    nickname: login\n    consumes:\n      - text/html\n    parameters:\n\n    - name: username\n      dataType: string\n      paramType: query\n      required: true\n      description: Your username\n\n    - name: password\n      dataType: string\n      paramType: query\n      required: true\n      description: Your password\n\nmodels:\n    User:\n      id: User\n      properties:\n        username:\n          type: String\n        password:\n          type: String\n```\n\n\n## Examples\n\nClone the {swagger-express} repo, then install the dev dependencies:\n\n    $ git clone git://github.com/fliptoo/swagger-express.git --depth 1\n    $ cd swagger-express\n    $ npm install\n\nand run the example:\n\n    $ cd example\n    $ node app.js\n\n# Credits\n\n- [Express](https://github.com/visionmedia/express)\n- [swagger-jack](https://github.com/feugy/swagger-jack)\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2013 Fliptoo &lt;fliptoo.studio@gmail.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+150 silly publish   readmeFilename: 'README.md',
+150 silly publish   bugs: { url: 'https://github.com/fliptoo/swagger-express/issues' },
+150 silly publish   _id: 'swagger-express@1.0.2',
+150 silly publish   dist: { shasum: '482557b9915d4b56a18ee4c77d4170f67cd2a18b' },
+150 silly publish   _from: '.' }
+151 verbose url raw swagger-express
+152 verbose url resolving [ 'https://registry.npmjs.org/', './swagger-express' ]
+153 verbose url resolved https://registry.npmjs.org/swagger-express
+154 info trying registry request attempt 1 at 19:27:32
+155 http PUT https://registry.npmjs.org/swagger-express
+156 http 409 https://registry.npmjs.org/swagger-express
+157 verbose url raw swagger-express
+158 verbose url resolving [ 'https://registry.npmjs.org/', './swagger-express' ]
+159 verbose url resolved https://registry.npmjs.org/swagger-express
+160 info trying registry request attempt 1 at 19:27:33
+161 http GET https://registry.npmjs.org/swagger-express
+162 http 200 https://registry.npmjs.org/swagger-express
+163 verbose uploading [ 'swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c',
+163 verbose uploading   '/home/tknew/.npm/swagger-express/1.0.2/package.tgz' ]
+164 verbose url raw swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c
+165 verbose url resolving [ 'https://registry.npmjs.org/',
+165 verbose url resolving   './swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c' ]
+166 verbose url resolved https://registry.npmjs.org/swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c
+167 info trying registry request attempt 1 at 19:27:34
+168 http PUT https://registry.npmjs.org/swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c
+169 http 403 https://registry.npmjs.org/swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c
+170 info trying registry request attempt 1 at 19:27:37
+171 http PUT https://registry.npmjs.org/swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c
+172 http 403 https://registry.npmjs.org/swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c
+173 error publish Error uploading package
+174 error Error: forbidden user: tknew not authorized to modify swagger-express
+174 error Added: _attachments.swagger-express-1.0.2.tgz: swagger-express/-/swagger-express-1.0.2.tgz/-rev/5-75efea541af48373439726996c90807c
+174 error     at RegClient.<anonymous> (/home/tknew/nvm/v0.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:269:14)
+174 error     at Request.self.callback (/home/tknew/nvm/v0.11.2/lib/node_modules/npm/node_modules/request/index.js:148:22)
+174 error     at Request.EventEmitter.emit (events.js:100:17)
+174 error     at Request.<anonymous> (/home/tknew/nvm/v0.11.2/lib/node_modules/npm/node_modules/request/index.js:876:14)
+174 error     at Request.EventEmitter.emit (events.js:119:20)
+174 error     at IncomingMessage.<anonymous> (/home/tknew/nvm/v0.11.2/lib/node_modules/npm/node_modules/request/index.js:827:12)
+174 error     at IncomingMessage.EventEmitter.emit (events.js:119:20)
+174 error     at _stream_readable.js:894:16
+174 error     at process._tickCallback (node.js:415:13)
+175 error If you need help, you may report this log at:
+175 error     <http://github.com/isaacs/npm/issues>
+175 error or email it to:
+175 error     <npm-@googlegroups.com>
+176 error System Linux 3.2.0-29-generic
+177 error command "/home/tknew/nvm/v0.11.2/bin/node" "/home/tknew/nvm/v0.11.2/bin/npm" "publish"
+178 error cwd /home/tknew/Unitech/swagger-express
+179 error node -v v0.11.2
+180 error npm -v 1.2.21
+181 verbose exit [ 1, true ]
