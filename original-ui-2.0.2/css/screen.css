@@ -1007,7 +1007,7 @@ table {
   color: black;
 }
 #header {
-  background-color: #333;
+  background-color: #89bf04;
   padding: 14px;
 }
 #header a#logo {
@@ -1067,17 +1067,4 @@ table {
   min-height: 30px;
   text-align: center;
   padding-top: 10px;
-}
-
-#realtime-notification {
-    position : fixed;
-    left : 0px;
-    top : 10%;
-    display : none;
-    width : 0px;
-    height : 150px;
-    background-color : #333;
-    color : white;
-    font-weight : bold;
-    padding : 13px;
 }
