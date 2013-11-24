@@ -133,3 +133,23 @@ pre .xml .css,
 pre .xml .cdata {
   opacity: 0.5;
 }
+
+
+.swagger-top-logo {
+    text-align : center;
+}
+
+.info_description {
+    float: left;
+    line-height: 28px;
+    margin-left: 15px;
+}
+
+.info_title   {
+    float : left;
+}
+
+.swagger-ui-wrap .info_contact {
+    float : right;
+    line-height : 28px;
+}

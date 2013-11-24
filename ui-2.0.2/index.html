@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Assemblage API Interface</title>
+  <title>Genotype API Interface</title>
   <link href='//fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
   <link href='css/highlight.default.css' media='screen' rel='stylesheet' type='text/css'/>
   <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>
   <script type="text/javascript" src="lib/shred.bundle.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" />
   <script src='lib/jquery-1.8.0.min.js' type='text/javascript'></script>
   <script src='lib/jquery.slideto.min.js' type='text/javascript'></script>
   <script src='lib/jquery.wiggle.min.js' type='text/javascript'></script>
@@ -58,21 +59,17 @@
 </head>
 
 <body>
-  <div id='header'>
-    <div class="swagger-ui-wrap">
-      <a id="logo" href="#">Assemblage</a>
+  <div id='header' style="margin-bottom : 20px">
+    <div class="swagger-ui-wrap swagger-top-logo">
+      <a id="logo" href="#">Genotype API</a>
 
-      <form id='api_selector'>
+      <!-- <form id='api_selector'> -->
 
-        <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div>
-        <div class='input'><input placeholder="api_key" id="input_apiKey" name="apiKey" type="text"/></div>
-        <div class='input'><a id="explore" href="#">Explore</a></div>
-      </form>
+      <!--   <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div> -->
+      <!--   <div class='input'><input placeholder="api_key" id="input_apiKey" name="apiKey" type="text"/></div> -->
+      <!--   <div class='input'><a id="explore" href="#">Explore</a></div> -->
+      <!-- </form> -->
     </div>
-  </div>
-
-  <div id="message-bar" class="swagger-ui-wrap">
-    &nbsp;
   </div>
 
   <div id="realtime-notification">
@@ -83,6 +80,7 @@
   <div id="swagger-ui-container" class="swagger-ui-wrap">
 
   </div>
+
 
 </body>
 
